@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas Carnívoras - Tu Fuente de Información</title>
+    <!-- Corregido el nombre del archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo_plantas.png" alt="Logo Plantas Carnívoras">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#login">Iniciar Sesión</a></li>
+                    <li><a href="#register">Registrarse</a></li>
+                    <li><a href="#learn-more">Sobre Nosotros</a></li>
+                    <li><a href="#contact">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Descubre el Fascinante Mundo de las Plantas Carnívoras</h1>
+            <p>Aprende sobre estas increíbles plantas que desafían la naturaleza.</p>
+            <a href="#learn-more" class="btn">Saber Más</a>
+            <div class="video-container">
+                <section id="video">
+                    <h2>Video</h2>
+                    <iframe width="560" height="315" src="planta.mp4" title="Video de Plantas Carnívoras" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+            </div>
+            <div class="content-sections">
+                <div class="content-section">
+                    <h2>¿Qué Son las Plantas Carnívoras?</h2>
+                    <p>Las plantas carnívoras son especies únicas que obtienen algunos o la mayoría de sus nutrientes atrapando y consumiendo presas, generalmente insectos.</p>
+                </div>
+                <div class="content-section">
+                    <h2>Tipos de Plantas Carnívoras</h2>
+                    <p>Existen diferentes tipos como la Venus atrapamoscas, la Drosera y la Nepenthes, cada una con su propio mecanismo de captura.</p>
+                </div>
+                <div class="content-section">
+                    <h2>Cuidado de Plantas Carnívoras</h2>
+                    <p>Aprender a cuidar estas plantas requiere entender su entorno natural, que incluye suelos pobres en nutrientes y mucha humedad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="learn-more">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una comunidad dedicada a compartir conocimiento sobre plantas carnívoras, ofreciendo guías, recursos y consejos prácticos para aficionados y expertos.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Plantas Carnívoras. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <a href="#"><img src="fb.png" alt="Facebook" style="height: 20px; margin-right: 5px;">Facebook</a>
+                <a href="#"><img src="tw.png" alt="Twitter" style="height: 20px; margin-right: 5px;">Twitter</a>
+                <a href="#"><img src="ig.png" alt="Instagram" style="height: 20px; margin-right: 5px;">Instagram</a>
+            </div>
+            <div class="contact-form" id="contact">
+                <h3>Contáctanos</h3>
+                <form action="#" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
